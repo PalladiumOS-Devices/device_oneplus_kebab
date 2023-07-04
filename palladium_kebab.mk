@@ -11,8 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from kebab device
 $(call inherit-product, device/oneplus/kebab/device.mk)
 
-# Inherit some common aosp stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common palladium stuff.
+$(call inherit-product, vendor/palladium/config/common_full_phone.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -23,7 +23,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # Next Gen Assistant
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
-PRODUCT_NAME := aosp_kebab
+PRODUCT_NAME := palladium_kebab
 PRODUCT_DEVICE := kebab
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
